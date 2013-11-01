@@ -1,3 +1,5 @@
+package xflight;
+
 import java.util.Scanner;
 
 /**
@@ -49,7 +51,7 @@ public class OptionsMenu {
 //                        System.out.println("Invalid ship design! Must be more more than 7 characters.");
 //                }
 //
-//                Game.ship_design = ship_design;
+//                xflight.Game.ship_design = ship_design;
 //
 //
 //            } else if (input.equals("2")) {

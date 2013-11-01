@@ -1,3 +1,5 @@
+package xflight;
+
 import com.googlecode.lanterna.TerminalFacade;
 import com.googlecode.lanterna.gui.GUIScreen;
 import com.googlecode.lanterna.input.Key;
@@ -29,7 +31,7 @@ public class Main {
             // Define start menu
         }
 
-        // new Game();
+        // new xflight.Game();
 
         textGUI.getScreen().stopScreen();
 
@@ -37,10 +39,10 @@ public class Main {
 
 
     static Menu start_menu = new Menu(new String[] {
-            "Start Game",
+            "Start xflight.Game",
             "Options",
             "About",
-            "End Game"
+            "End xflight.Game"
     }, "-----+ X-Flight 2013 +-----");
 
     public static boolean handle_start_menu() {
